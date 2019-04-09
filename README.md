@@ -1,7 +1,7 @@
 Firmware builder on Docker container
 ======================
 
-This repository is intended to create a simple environment to generate builds of custom micropython firmware inside Odditive. However, you can also freely use it providing links to your repo as the arguments.
+This repository is intended to create a simple environment to generate builds of custom micropython firmware at [Odditive](https://odditive.com). However, you can also freely use it providing links to your repo as the arguments.
 
 Usage
 ------------------
@@ -51,5 +51,7 @@ Configurations
 Provided arguments are following:
 
 `REPOSITORY` - Link to your fork of micropython.
+
 `BRANCH` - Git branch of your fork to be deployed.
+
 `VERSION` - Hash of supported ESP-IDF version.
